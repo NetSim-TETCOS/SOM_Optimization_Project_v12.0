@@ -1,0 +1,47 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(438,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  CheckRouteFound.c
+  DSR.c
+C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\src\Simulation\DSR\DSR.c(40,31): warning C4013:  'fn_NetSim_som_Clustering_Init' undefined; assuming extern returning int
+  MaintBuffer.c
+  MATLAB_Interface.c
+C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\src\Simulation\DSR\DSR.c(169,33): warning C4013:  'fn_NetSim_som_clustering_run' undefined; assuming extern returning int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\stdbool.h(16,1): warning C4005:  'false': macro redefinition
+C:\Program Files\MATLAB\R2016a\extern\include\tmwtypes.h(761): message :  see previous definition of 'false'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\stdbool.h(17,1): warning C4005:  'true': macro redefinition
+C:\Program Files\MATLAB\R2016a\extern\include\tmwtypes.h(764): message :  see previous definition of 'true'
+C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\src\Simulation\Include\main.h(215,1): warning C4005:  'printf': macro redefinition
+C:\Program Files\MATLAB\R2016a\extern\include\mex.h(190): message :  see previous definition of 'printf'
+C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\src\Simulation\DSR\MATLAB_Interface.c(116,29): warning C4013:  'fn_netsim_som_form_clusters' undefined; assuming extern returning int
+  Network_Layer_Ack.c
+  PacketProcessing.c
+C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\src\Simulation\DSR\MATLAB_Interface.c(117,32): warning C4013:  'fn_netsim_assign_cluster_heads' undefined; assuming extern returning int
+  RouteCache.c
+  RouteError.c
+  RouteReply.c
+  RouteRequest.c
+  SendBuffer.c
+  SOM_Clustering.c
+C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\src\Simulation\DSR\PacketProcessing.c(36,37): warning C4013:  'fn_NetSim_som_clustering_GetNextHop' undefined; assuming extern returning int
+C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\src\Simulation\DSR\SOM_Clustering.c(60,50): warning C4013:  'fn_NetSim_som_clustering_IdentifyCluster' undefined; assuming extern returning int
+C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\src\Simulation\DSR\SOM_Clustering.c(56,6): warning C4101:  'i': unreferenced local variable
+C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\src\Simulation\DSR\SOM_Clustering.c(53,12): warning C4101:  'nInterface': unreferenced local variable
+C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\src\Simulation\DSR\SOM_Clustering.c(113,32): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\src\Simulation\DSR\SOM_Clustering.c(125,19): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+  SourceRoute.c
+C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\src\Simulation\DSR\SOM_Clustering.c(132,16): warning C4018:  '<': signed/unsigned mismatch
+  Generating Code...
+C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\src\Simulation\DSR\SourceRoute.c(64,47): warning C4013:  'fn_NetSim_som_clustering_CheckDestination' undefined; assuming extern returning int
+C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\src\Simulation\DSR\SOM_Clustering.c(105): warning C4716:  'fn_NetSim_som_clustering_run': must return a value
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1264,5): warning MSB8012: TargetPath(C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\src\Simulation\DSR\..\..\..\bin\bin_x64\DSR.dll) does not match the Linker's OutputFile property value (C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\bin\bin_x64\libDSR.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1266,5): warning MSB8012: TargetName(DSR) does not match the Linker's OutputFile property value (libDSR). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+CheckRouteFound.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  List.lib(List.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+CheckRouteFound.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library ..\..\..\bin\bin_x64\DSR.lib and object ..\..\..\bin\bin_x64\DSR.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+List.lib(List.obj) : warning LNK4099: PDB 'List.pdb' was not found with 'List.lib(List.obj)' or at 'C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\bin\bin_x64\List.pdb'; linking object as if no debug info
+DSR.lib(DSR.obj) : warning LNK4099: PDB 'DSRLib.pdb' was not found with 'DSR.lib(DSR.obj)' or at 'C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\bin\bin_x64\DSRLib.pdb'; linking object as if no debug info
+DSR.lib(LinkLayerAck.obj) : warning LNK4099: PDB 'DSRLib.pdb' was not found with 'DSR.lib(LinkLayerAck.obj)' or at 'C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\bin\bin_x64\DSRLib.pdb'; linking object as if no debug info
+  DSR.vcxproj -> C:\Users\TETCOS-DEMO SYSTEM\Desktop\SOM_Optimization_Project_v12.0\SOM_Optimization_Workspace\src\Simulation\DSR\..\..\..\bin\bin_x64\DSR.dll
